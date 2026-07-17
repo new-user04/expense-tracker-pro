@@ -1,0 +1,175 @@
+body{
+    background:#f4f7fc;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* Container */
+
+.container{
+    max-width:1200px;
+}
+
+/* Navbar */
+
+.navbar{
+    background:linear-gradient(
+            135deg,
+            #4f46e5,
+            #2563eb);
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.navbar-brand{
+    font-size:1.3rem;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* Main Dashboard Card */
+
+.dashboard-card{
+    background:linear-gradient(
+            135deg,
+            #4f46e5,
+            #3b82f6);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.dashboard-card i{
+    font-size:2rem;
+}
+
+.dashboard-card h2{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:10px;
+    font-weight:500;
+}
+
+.btn-primary{
+    background:#2563eb;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+}
+
+/* Forms */
+
+.form-control,
+.form-select{
+    border-radius:10px;
+    border:1px solid #d1d5db;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:0 0 10px rgba(37,99,235,0.2);
+}
+
+/* Table */
+
+.table{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.table-hover tbody tr:hover{
+    background:#eef4ff;
+}
+
+.table th{
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* Badges */
+
+.badge{
+    padding:8px 12px;
+    font-size:0.85rem;
+    border-radius:8px;
+}
+
+/* Progress Bar */
+
+.progress{
+    border-radius:15px;
+}
+
+.progress-bar{
+    font-weight:bold;
+}
+
+/* Chart */
+
+canvas{
+    max-height:350px;
+}
+
+/* Footer */
+
+footer{
+    color:#6b7280;
+    font-size:14px;
+}
+
+/* Heading */
+
+h1{
+    color:#2563eb;
+    font-weight:700;
+}
+
+/* Recent Activity */
+
+.activity-item{
+    border-bottom:1px solid #e5e7eb;
+    padding:10px 0;
+}
+
+.activity-item:last-child{
+    border-bottom:none;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .dashboard-card{
+        padding:20px;
+    }
+
+    .dashboard-card h2{
+        font-size:1.5rem;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+}
